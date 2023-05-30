@@ -1,0 +1,79 @@
+
+.container{
+    margin-top: 12rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 15rem;
+}
+
+.intro{
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.introSlide{
+    font-size: 2.5rem;
+}
+
+.intro3{
+    font-size: 3rem;
+}
+
+
+.skillButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillText{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+    .intro {
+        font-weight: 500;
+        font-size:  3rem;
+    }
+
+    .introSlide{
+        margin-top: 1.5rem;
+        font-size: 2.5rem;
+    }
+
+    .intro3{
+        font-size: 3rem;
+    }
+
+    .skillButton{
+        padding: 3px;
+    }
+    
+    .skillText{
+        font-size: 30px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        font-size:  1.8rem;
+        font-weight: 500;
+    }
+
+    .introSlide{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .intro3{
+        font-size: 1.8rem;
+    }
+
+    .skillText{
+        font-size: 15px;
+    }
+}

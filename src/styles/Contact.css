@@ -1,0 +1,119 @@
+.formBg{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100vw;
+}
+
+.form-title{
+    background-image: linear-gradient(
+        -225deg,
+        #FFFFFF 0%,
+        #c4a4e5 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    font-size: 50px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 60vw;
+}
+
+.item{
+  height: 5rem;
+}
+
+.form input[type='text']{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form input[type='email']{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form textarea{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+  
+@media screen and (max-width: 980px){
+  .form-title{
+    font-size: 45px;
+  }
+  .form{
+    width: 80vw;
+    gap: 15px;
+  }
+  .item{
+    height: 4rem;
+  }
+  .form input[type='text']{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .form input[type='email']{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .form textarea{
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .form-title{
+    font-size: 35px;
+  }
+  .form{
+    width: 80vw;
+    gap: 10px;
+  }
+  .item{
+    height: 3rem;
+  }
+  
+  .form input[type='text']{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .form input[type='email']{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .form textarea{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+}
