@@ -1,4 +1,4 @@
-import {React,useState, useEffect, useRef} from 'react';
+import {React, useEffect, useRef} from 'react';
 import '../styles/Home.css';
 import Typed from "typed.js";
 import Button from 'react-bootstrap/Button';
@@ -32,8 +32,10 @@ const Home = () => {
       <div id='stars2'></div>
       <div id='stars3'></div>
       <div className='container'>
-        <h1 className='intro'>Hello, My Name is Dilpreet</h1>
-        <p class="introSlide">
+        <h1 className='intro'>Hi, I am Dilpreet
+          <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
+        </h1>
+        <p className="introSlide">
             I am a <span ref={el}></span>
         </p>
         <h2 className='intro3'>Based in New Delhi, India</h2>
