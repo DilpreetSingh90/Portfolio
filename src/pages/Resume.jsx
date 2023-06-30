@@ -1,15 +1,9 @@
 import React from 'react';
-import { pdfjs,Document, Page } from 'react-pdf';
-import resume from '../Resume.pdf';
 import '../styles/Resume.css';
 import MediaQuery from 'react-responsive';
 import { Button } from 'react-bootstrap';
-
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-    'pdfjs-dist/build/pdf.worker.min.js',
-    import.meta.url,
-  ).toString();
-
+import resume from '../Resume.pdf';
+import resumeImg from '../assets/Resume.png';
 
 const Resume = () => {
 
@@ -18,36 +12,26 @@ const Resume = () => {
       <div id='stars'></div>
       <div id='stars2'></div>
       <div id='stars3'></div>
-      <MediaQuery minWidth={1000}>
-        <div className='pdfContainer'>
-          <Document className='pdfBox' file={resume}>
-            <Page scale={1.3} pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false}/>
-          </Document>
+      <div className='pdfContainer'>
+        <div className='pdfBox'>
+          <img className='pdfPage' src={resumeImg} alt='resume' />
+        </div>
+        <MediaQuery minWidth={1000}>
           <Button type='primary' className='downloadBtn' size='lg'>
-            <a href={resume} download='Resume.pdf' className='download'>Download Resume</a>
+            <a className='download' href={resume} download='Resume.pdf'>Download Resume</a>
           </Button>
-        </div>
-      </MediaQuery>
-      <MediaQuery minWidth={620} maxWidth={960}>
-        <div className='pdfContainer'>
-          <Document className='pdfBox' file={resume}>
-            <Page scale={0.85} pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false}/>
-          </Document>
+        </MediaQuery>
+        <MediaQuery minWidth={620} maxWidth={980}>
           <Button type='primary' className='downloadBtn'>
-            <a href={resume} download='Resume.pdf' className='download'>Download Resume</a>
+            <a className='download' href={resume} download='Resume.pdf'>Download Resume</a>
           </Button>
-        </div>
-      </MediaQuery>
-      <MediaQuery maxWidth={600}>
-        <div className='pdfContainer'>
-          <Document className='pdfBox' file={resume}>
-            <Page scale={0.45} pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false}/>
-          </Document>
+        </MediaQuery>
+        <MediaQuery maxWidth={600}>
           <Button type='primary' className='downloadBtn' size='sm'>
-            <a href={resume} download='Resume.pdf' className='download'>Download Resume</a>
+            <a className='download' href={resume} download='Resume.pdf'>Download Resume</a>
           </Button>
-        </div>
-      </MediaQuery>
+        </MediaQuery>
+      </div>
     </div>
   )
 }
