@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import '../styles/Contact.css';
 import Button from 'react-bootstrap/Button';
 import emailjs from '@emailjs/browser';
-import MediaQuery from 'react-responsive'
+import MediaQuery from 'react-responsive';
 
 const Contact = () => {
   const form = useRef();

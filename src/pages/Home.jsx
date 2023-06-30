@@ -10,7 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Front End Developer", "Back End Developer", "Software Engineer"],
+      strings: ["Software Engineer", "Web Developer"],
       startDelay: 200,
       typeSpeed: 50,
       backSpeed: 70,
@@ -32,7 +32,7 @@ const Home = () => {
       <div id='stars2'></div>
       <div id='stars3'></div>
       <div className='container'>
-        <h1 className='intro'>Hi, I am Dilpreet
+        <h1 className='intro'>Hi, I am <span className='name'>Dilpreet</span>
           <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
         </h1>
         <p className="introSlide">
