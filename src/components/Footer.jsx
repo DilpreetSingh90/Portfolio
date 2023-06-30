@@ -8,7 +8,6 @@ import MediaQuery from 'react-responsive';
 
 
 const Footer = () => {
-    const year = new Date().getFullYear() ;
   return (
     <div className='footer'> 
         <div className="socialMedia">

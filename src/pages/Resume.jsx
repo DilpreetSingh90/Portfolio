@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { pdfjs,Document, Page } from 'react-pdf';
 import resume from '../Resume.pdf';
 import '../styles/Resume.css';
 import MediaQuery from 'react-responsive';
-import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
