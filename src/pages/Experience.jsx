@@ -36,7 +36,7 @@ const Experience = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'white', color: 'radial-gradient(ellipse at bottom,#1b2735 0,#090a0f 100%)' }}
           contentArrowStyle={{ borderRight: '7px solid  radial-gradient(ellipse at bottom,#1b2735 0,#090a0f 100%)' }}
-          date="Jun,2022 - Sep,2022"
+          date="Jun 2022 - Sep 2022"
           dateClassName={'date2'}
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<WorkIcon />}
