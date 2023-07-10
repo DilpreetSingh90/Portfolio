@@ -1,4 +1,5 @@
 .project {
+    margin-top: 10px;
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
@@ -13,7 +14,8 @@
     background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
     color: transparent;
     background-clip: text;
-    font-size: 50px;
+    font-size: 45px;
+    font-weight: bold;
     margin-bottom: 30px;
   }
   
@@ -24,7 +26,7 @@
   
   .project p {
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
   }
   
