@@ -7,24 +7,24 @@ const Skills = () => {
     <div className="skills">
             <h2 className='skillTitle'>I have experience with these technologies</h2>
             <div className="skillsGrid">
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"  alt="logo for C++" title="C++" />
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"  alt="logo for Python" title="Python" />
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"  alt="logo for Javascript" title="Javascript" />
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"  alt="logo for Typescript" title="Typescript" />
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="The logo icon for react" title="React"/>
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="The logo icon for HTML 5" title="HTML 5"/>
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="The logo icon for CSS3" title="CSS 3"/>
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="The logo icon for TailwindCSS" title="Twilwind CSS"/>
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="The logo icon for NodeJS" title="Node JS"/>
-                <i class="devicon-express-original iTags" title='Express.js'></i>
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"  alt="logo for Bootstrap" title="Bootstrap" />
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"  alt="logo for Redux" title="Redux" />
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"  alt="logo for Mysql" title="Mysql" />
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg"  alt="logo for Mongodb" title="MongoDB" />
-                <i class="devicon-github-original-wordmark iTags" title='Github'></i>
-                <i class="devicon-nextjs-original iTags" title='Next.js'></i> 
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"  alt="logo for Tensorflow" title="Tensorflow" />
-                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"  alt="logo for Firebase" title="Firebase" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="logo for Java" title="Java" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="logo for Spring Boot" title="Spring Boot" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="logo for Python" title="Python" />
+                <div className="skill-text">Micronaut</div>
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="logo for Redis" title="Redis" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="logo for Kafka" title="Kafka" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" alt="logo for MongoDB" title="MongoDB" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="logo for MySQL" title="MySQL" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-plain-wordmark.svg" alt="logo for ElasticSearch" title="ElasticSearch" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="logo for Javascript" title="Javascript" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="logo for React" title="React" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="logo for Node" title="Node" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="logo for Git" title="Git" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="logo for Docker" title="Docker" />
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="logo for Jenkins" title="Jenkins" />
+                <div className="skill-text">Cloud</div>
+                <div className="skill-text">Agentic AI/LLM</div>
+                <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="logo for Kubernetes" title="Kubernetes" />
             </div>            
     </div>
   )

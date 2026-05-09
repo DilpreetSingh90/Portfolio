@@ -10,7 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Software Engineer", "Web Developer"],
+      strings: ["Software Engineer", "Backend Developer"],
       startDelay: 200,
       typeSpeed: 50,
       backSpeed: 70,
@@ -38,7 +38,7 @@ const Home = () => {
         <p className="introSlide">
             I am a <span ref={el}></span>
         </p>
-        <h2 className='intro3'>Based in New Delhi, India</h2>
+        <h2 className='intro3'>Based in India</h2>
         <a href='#skills'>
         <Button variant="primary" style={{marginTop: '2rem'}} >
           <div className='skillButton'>

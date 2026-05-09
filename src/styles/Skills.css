@@ -6,6 +6,31 @@
   height: auto;
   margin-bottom: 2rem;
 }
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-name {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+.skill-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 8px;
+}
 .skillsGrid img {
 height: 100px;
 width: 100px;

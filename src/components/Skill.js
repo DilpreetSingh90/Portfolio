@@ -2,7 +2,10 @@ import React from 'react'
 
 const Skill = ({source, alt, title}) => {
   return (
-     <img src={source} alt={alt} title={title}/>
+    <div className="skill-item">
+      <img src={source} alt={alt} title={title} />
+      <p className="skill-name">{title}</p>
+    </div>
   )
 }
 
